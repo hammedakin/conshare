@@ -15,9 +15,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+      <nav class="navbar navbar-expand-md fixed-top" id="navbar">
         <div class="container">
-          <Link to="/home" className="navbar-brand">
+          <Link to="/" className="navbar-brand mt-2 mb-2">
             <img src={logo} width="100%" alt="logo" loading="lazy" />
           </Link>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
               <box-icon
                 class="box-icon"
                 size="2rem"
-                color="#0E6EFF"
+                color="#fff"
                 name="menu-alt-right"
                 type="logo"
               ></box-icon>
@@ -44,53 +44,48 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="basicExampleNav">
             <ul class="navbar-nav mr-auto ml-auto text-center animated fadeInUp">
               <li class="nav-item">
-                <NavLink tag={Link} activeClassName="active1 " to="/">
+              <a
+    ClassName="active" href="#home">
                   Home
-                </NavLink>
+                </a>
               </li>
 
               <li class="nav-item">
-                <NavLink
-                  tag={Link}
-                  activeClassName="active1"
-                  to="/a"
-
+                <a
+                  ClassName="active"
+                  href="#features"
                 >
                   Features
-                </NavLink>
+                </a>
               </li>
              
 
               <li class="nav-item">
-                <NavLink
-                  tag={Link}
-                  activeClassName="active1"
-                  to="/a"
-
+                <a
+                  ClassName="active"
+                  href="#faq"
                 >
                   FAQs
-                </NavLink>
+                </a>
               </li>
 
               <li class="nav-item">
-                <NavLink
-                  tag={Link}
-                  activeClassName="active1"
-                  to="/a"
-
+                <a
+                  ClassName="active"
+                  href="#contact"
                 >
                   Contacts
-                </NavLink>
+                </a>
               </li>
             </ul>
             <ul class="navbar-nav text-center animated fadeInRight">
-              <Link to="/contact">
+              <a href="#contact">
                 <li class=" btn-contact">
                   <button type="btn" class="btn shadow">
                     contact us
                   </button>
                 </li>
-              </Link>
+              </a>
             </ul>
           </div>
         </div>

@@ -83,17 +83,14 @@ h1, h2, h3, h4, h5{
   
   /* Navbar */
   nav {
-    background-color: transparent!important;
+    background-color: #0E6EFF!important;
     transition: 0.5s ease!important;
-    box-shadow: none !important;
+    /* box-shadow: none !important; */
+    /* height: 5rem !important; */
+    overflow: hidden !important;
   }
 
-  /* nav .navbar-brand {
-    width: 25%!important;
-  } */
-
-  
-  .active1 {
+  .active{
     border-bottom: #fff solid 2px !important;
     transition: 0.1s ease!important;
   }

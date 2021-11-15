@@ -6,7 +6,7 @@ import call from "./img/call.svg";
 const Contact = () => {
   return (
     <>
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-md-4">

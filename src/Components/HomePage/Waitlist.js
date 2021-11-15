@@ -60,7 +60,7 @@ const Waitlist = () => {
           <div className="col-md-10 ml-auto mr-auto">
             <div className="first">
               <div className="row ">
-                <div className="col-md-7 text-center">
+                <div className="col-md-7 text-center align-self-center">
                   <h3>Get Ahead and join our Whitelist </h3>
 
                   <div className="form">
@@ -133,7 +133,7 @@ const Waitlist = () => {
                     </form>
                   </div>
                 </div>
-                <div className="col-md-5 text-center">
+                <div className="col-md-5 text-center align-self-center">
                   <img src={img} width="50%" />
                 </div>
               </div>

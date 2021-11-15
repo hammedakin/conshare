@@ -4,7 +4,7 @@ import app from './img/app.svg'
 const Showcase = () => {
   return (
     <>
-      <section class="showcase ">
+      <section class="showcase " id="home">
         <div class="container ">
           <div class="showcase-content ">
             <div class=" animated fadeIn slow content col-md-6 ml-auto mr-auto ">

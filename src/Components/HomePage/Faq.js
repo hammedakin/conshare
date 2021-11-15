@@ -4,7 +4,7 @@ import React from 'react';
 const Faq = () => {
     return ( 
         <>
-        <section className="faq">
+        <section className="faq" id="faq">
             <div className="container">
                 <div className="row">
                     

@@ -9,10 +9,10 @@ import img3 from "./img/4.png";
 const HowItWorks = () => {
     return ( 
         <>
-    <section className="howitworks">
+    <section className="howitworks" id="howitworks">
         <div className="container">
             <div className="row">
-                <div className="col-md-5 text-center">
+                <div className="col-md-5 text-center align-self-center">
                 <img src={img3} width="50%" className="mb-5" />
                 </div>
                 <div className="col-md-7 align-self-center text-justify">

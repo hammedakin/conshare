@@ -8,11 +8,11 @@ import img3 from "./img/3.png";
 const Features = () => {
   return (
     <>
-      <section className="features">
+      <section className="features" id="features">
         <div className="container">
           <div class="row ">
             <div class="col-md-7 align-self-center">
-              <div className="col-md-10">
+              <div className="col-md-10 align-self-center">
                 <div class="flex">
                   <img src={credit} width="10%" className="mr-3" />
                   <div className="">
@@ -43,7 +43,7 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-5 text-center">
+            <div class="col-md-5 text-center align-self-center">
               <h5> THE BEST CHOICE </h5>
               <div className="">
                 <img src={img3} width="60%" />
